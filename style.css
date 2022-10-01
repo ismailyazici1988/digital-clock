@@ -8,25 +8,31 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url("https://images.unsplash.com/photo-1664629480205-c0c248ba9242?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-image: url(./img/manzara.jpeg);
   background-repeat: none;
   background-size: cover;
   text-align: center;
   overflow: hidden;
+  font-family: "Orbitron", sans-serif;
+}
+h1 {
+  letter-spacing: 0.2rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .time {
   display: flex;
 }
 .time div {
-  margin: 5px;
+  margin: 15px;
   position: relative;
 }
 
 .clock span {
   position: relative;
   display: block;
-  width: 80px;
+  width: 90px;
   height: 70px;
   background-color: #c3a38e;
   opacity: 0.8;
@@ -40,9 +46,9 @@ body {
 }
 .clock .text {
   height: 30px;
-  font-size: 10px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
   background-color: #47322f;
-  color: #c3a38e;
+  color: #bba292;
 }
